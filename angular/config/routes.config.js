@@ -42,6 +42,30 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('app.about.afjj', {
+      url: '/afjj',
+      data: {
+        auth: false
+        //auth: true
+      },
+      views: {
+        'main@app': {
+          templateUrl: getView('paging')
+        }
+      }
+    })
+    .state('app.afsj', {
+      url: '/afsj',
+      data: {
+        auth: false
+        //auth: true
+      },
+      views: {
+        'main@app': {
+          templateUrl: getView('paging')
+        }
+      }
+    })
     .state('app.tablessimple', {
       url: '/tables-simple',
       data: {

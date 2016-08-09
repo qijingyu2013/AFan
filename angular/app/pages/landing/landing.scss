@@ -208,6 +208,10 @@ Make sure to remove this when you modify this demo
         flex: none !important;
     }
 }
+
+body {
+    font-family: 微软雅黑;
+}
 .h-title {
     color: white;
     padding-top: 30px;
@@ -229,11 +233,13 @@ Make sure to remove this when you modify this demo
     color: white;
     padding-top: 10px;
     padding-bottom: 0px;
+    padding-right: 20px;
 }
 
 .a-more {
     float:right;
     color: white;
+    padding-right: 20px;
 }
 
 .img-custom {
@@ -249,11 +255,7 @@ Make sure to remove this when you modify this demo
     padding-bottom: 10px;
 }
 
-.content-aflssyb {
-    background-color: white;
-    width: 100%;
-    height: 560px;
-}
+
 
 .title-gray {
     color: #44535c;
@@ -264,11 +266,56 @@ Make sure to remove this when you modify this demo
     border-bottom: 2px solid #44535c;
 }
 
-.img-custom-3 {
-    height: 200px;
+
+.content-fzlc {
+    background-color: #3f89ca;
     width: 100%;
-    padding-bottom: 20px;
-    -webkit-filter: grayscale(1);/* Webkit */
-    filter:gray;/* IE6-9 */
-    filter: grayscale(1);/* W3C */
+    height: 480px;
+}
+
+.content-qywh {
+    background-color: #3b3c3e;
+    width: 100%;
+    height: 480px;
+}
+
+.dl-horizontal > dt {
+    color: #bf3335;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.dl-horizontal > dd {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.content-hzjg {
+    background-color: #09518c;
+    width: 100%;
+    height: 640px;
+}
+
+.dl-hzhb {
+    color: white;
+}
+
+.dl-hzhb > dd {
+    text-indent: 2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dl-hzhb > dt {
+    padding-top: 20px;
+    font-size: large;
+}
+
+.img-custom-hzjg {
+    height: 40px;
+    width: 126px;
+}
+
+.div-img-hzhb-custom {
+    padding-top: 20px;
 }

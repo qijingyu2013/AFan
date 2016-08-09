@@ -27,6 +27,10 @@ import { ForgotPasswordComponent } from './app/components/forgot-password/forgot
 import { LoginFormComponent } from './app/components/login-form/login-form.component'
 import { RegisterFormComponent } from './app/components/register-form/register-form.component'
 
+import { ImgListComponent } from './app/components/img-list/img-list.component'
+import { VideoListComponent } from './app/components/video-list/video-list.component'
+import { ImgChangeComponent } from './app/components/img-change/img-change.component'
+
 angular.module('app.components')
   .component('tablesSimple', TablesSimpleComponent)
   .component('uiModal', UiModalComponent)
@@ -56,3 +60,7 @@ angular.module('app.components')
   .component('forgotPassword', ForgotPasswordComponent)
   .component('loginForm', LoginFormComponent)
   .component('registerForm', RegisterFormComponent)
+
+  .component('imgList', ImgListComponent)
+  .component('videoList', VideoListComponent)
+  .component('imgChange', ImgChangeComponent)

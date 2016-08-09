@@ -5,31 +5,8 @@
       <h3 class="h-title title-gray"><span>阿凡</span>连售事业部</h3>
     </div>
     <div class="row">
-      <div class="col-md-3">
-        <img src="img/index/l1.jpg" class="img-responsive img-custom-3" ng-click>
-      </div>
-      <div class="col-md-3">
-        <img src="img/index/l2.jpg" class="img-responsive img-custom-3" ngMouseover>
-      </div>
-      <div class="col-md-3">
-        <img src="img/index/l3.jpg" class="img-responsive img-custom-3">
-      </div>
-      <div class="col-md-3">
-        <img src="img/index/l4.jpg" class="img-responsive img-custom-3">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <img src="img/index/l5.jpg" class="img-responsive img-custom-3">
-      </div>
-      <div class="col-md-3">
-        <img src="img/index/l6.jpg" class="img-responsive img-custom-3">
-      </div>
-      <div class="col-md-3">
-        <img src="img/index/l7.jpg" class="img-responsive img-custom-3">
-      </div>
-      <div class="col-md-3">
-        <img src="img/index/l8.jpg" class="img-responsive img-custom-3">
+      <div class="col-md-3" ng-repeat="row in directory"  ng-mouseenter="selectRestaurant($index)" ng-mouseleave="noSelectRestaurant($index)" ng-class="{true:'imgActive',false:'imgInActive' }[$index==selectedRow]">
+        <img src="{{row.imgSrc}}" class="img-responsive img-custom-3 {{inActive}}">
       </div>
     </div>
   </div>
