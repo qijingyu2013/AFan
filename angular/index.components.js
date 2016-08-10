@@ -26,7 +26,7 @@ import { ResetPasswordComponent } from './app/components/reset-password/reset-pa
 import { ForgotPasswordComponent } from './app/components/forgot-password/forgot-password.component'
 import { LoginFormComponent } from './app/components/login-form/login-form.component'
 import { RegisterFormComponent } from './app/components/register-form/register-form.component'
-
+import { NavBarComponent } from './app/components/nav-bar/nav-bar.component'
 /**
  *  index
  */
@@ -43,6 +43,7 @@ import { PagesQywhComponent } from './app/components/pages-qywh/pages-qywh.compo
 import { PagesLdghComponent } from './app/components/pages-ldgh/pages-ldgh.component'
 import { PagesAflssybComponent } from './app/components/pages-aflssyb/pages-aflssyb.component'
 import { PagesGdbjComponent } from './app/components/pages-gdbj/pages-gdbj.component'
+import { PagesQyspComponent } from './app/components/pages-qysp/pages-qysp.component'
 
 angular.module('app.components')
     .component('tablesSimple', TablesSimpleComponent)
@@ -73,6 +74,7 @@ angular.module('app.components')
     .component('forgotPassword', ForgotPasswordComponent)
     .component('loginForm', LoginFormComponent)
     .component('registerForm', RegisterFormComponent)
+    .component('navBar', NavBarComponent)
     /**
      *  index
      */
@@ -89,3 +91,4 @@ angular.module('app.components')
     .component('pagesLdgh', PagesLdghComponent)
     .component('pagesAflssyb', PagesAflssybComponent)
     .component('pagesGdbj', PagesGdbjComponent)
+    .component('pagesQysp', PagesQyspComponent)

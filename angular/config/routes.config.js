@@ -129,6 +129,17 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('page.aboutqysp', {
+      url: '/qysp',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-qysp></pages-qysp>'
+        }
+      }
+    })
     .state('app.tablessimple', {
       url: '/tables-simple',
       data: {
