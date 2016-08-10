@@ -1,5 +1,5 @@
 class VideoListController {
-  constructor ($scope) {
+  constructor () {
     'ngInject'
 
 

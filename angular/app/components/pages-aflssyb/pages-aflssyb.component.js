@@ -1,7 +1,6 @@
-class ImgListController {
+class PagesAflssybController {
   constructor ($scope) {
     'ngInject'
-
     $scope.directory=[
       {imgSrc:'img/index/l1.jpg',imgCls: 'img-responsive img-custom-3'},
       {imgSrc:'img/index/l2.jpg',imgCls: 'img-responsive img-custom-3'},
@@ -13,22 +12,14 @@ class ImgListController {
       {imgSrc:'img/index/l8.jpg',imgCls: 'img-responsive img-custom-3'}
 
     ];
-
-    $scope.selectRestaurant=function(row) {
-      $scope.selectedRow=row;
-    }
-    $scope.noSelectRestaurant=function() {
-      $scope.selectedRow='false';
-    }
   }
 
   $onInit () {}
 }
 
-export const ImgListComponent = {
-  templateUrl: './views/app/components/img-list/img-list.component.html',
-  controller: ImgListController,
+export const PagesAflssybComponent = {
+  templateUrl: './views/app/components/pages-aflssyb/pages-aflssyb.component.html',
+  controller: PagesAflssybController,
   controllerAs: 'vm',
   bindings: {}
 }
-

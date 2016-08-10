@@ -27,7 +27,7 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         main: {}
       },
       data: {
-        bodyClass: 'hold-transition skin-blue sidebar-mini'
+        bodyClass: 'hold-transition skin-blue' // sidebar-mini
       }
     })
     .state('app.landing', {
@@ -42,27 +42,90 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
-    .state('app.about.afjj', {
+    .state('page', {
+      abstract: true,
+      views: {
+        'layout': {
+          templateUrl: getLayout('layout')
+        },
+        'header@page': {
+          templateUrl: getView('headerpage')//page
+        },
+        'footer@page': {
+          templateUrl: getView('footer')
+        },
+        main: {}
+      },
+      data: {
+        bodyClass: 'hold-transition skin-blue'
+      }
+    })
+    .state('page.aboutafjj', {
       url: '/afjj',
       data: {
         auth: false
         //auth: true
       },
       views: {
-        'main@app': {
-          templateUrl: getView('paging')
+        'main@page': {
+          template: '<pages-afjj></pages-afjj>'
         }
       }
     })
-    .state('app.afsj', {
-      url: '/afsj',
+    .state('page.aboutfzlc', {
+      url: '/fzlc',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-fzlc></pages-fzlc>'
+        }
+      }
+    })
+    .state('page.aboutqywh', {
+      url: '/qywh',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-qywh></pages-qywh>'
+        }
+      }
+    })
+    .state('page.aboutldgh', {
+      url: '/ldgh',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-ldgh></pages-ldgh>'
+        }
+      }
+    })
+    .state('page.aboutaflssyb', {
+      url: '/aflssyb',
       data: {
         auth: false
         //auth: true
       },
       views: {
-        'main@app': {
-          templateUrl: getView('paging')
+        'main@page': {
+          template: '<pages-aflssyb></pages-aflssyb>'
+        }
+      }
+    })
+    .state('page.aboutgdbj', {
+      url: '/gdbj',
+      data: {
+        auth: false
+        //auth: true
+      },
+      views: {
+        'main@page': {
+          template: '<pages-gdbj></pages-gdbj>'
         }
       }
     })

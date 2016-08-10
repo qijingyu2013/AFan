@@ -27,40 +27,65 @@ import { ForgotPasswordComponent } from './app/components/forgot-password/forgot
 import { LoginFormComponent } from './app/components/login-form/login-form.component'
 import { RegisterFormComponent } from './app/components/register-form/register-form.component'
 
+/**
+ *  index
+ */
 import { ImgListComponent } from './app/components/img-list/img-list.component'
 import { VideoListComponent } from './app/components/video-list/video-list.component'
 import { ImgChangeComponent } from './app/components/img-change/img-change.component'
+/**
+ *  page
+ */
+import { NavHeaderpageComponent } from './app/components/nav-headerpage/nav-headerpage.component'
+import { PagesAfjjComponent } from './app/components/pages-afjj/pages-afjj.component'
+import { PagesFzlcComponent } from './app/components/pages-fzlc/pages-fzlc.component'
+import { PagesQywhComponent } from './app/components/pages-qywh/pages-qywh.component'
+import { PagesLdghComponent } from './app/components/pages-ldgh/pages-ldgh.component'
+import { PagesAflssybComponent } from './app/components/pages-aflssyb/pages-aflssyb.component'
+import { PagesGdbjComponent } from './app/components/pages-gdbj/pages-gdbj.component'
 
 angular.module('app.components')
-  .component('tablesSimple', TablesSimpleComponent)
-  .component('uiModal', UiModalComponent)
-  .component('uiTimeline', UiTimelineComponent)
-  .component('uiButtons', UiButtonsComponent)
-  .component('uiIcons', UiIconsComponent)
-  .component('uiGeneral', UiGeneralComponent)
-  .component('formsGeneral', FormsGeneralComponent)
-  .component('chartsChartjs', ChartsChartjsComponent)
-  .component('widgets', WidgetsComponent)
-  .component('userProfile', UserProfileComponent)
-  .component('userVerification', UserVerificationComponent)
-  .component('comingSoon', ComingSoonComponent)
-  .component('userEdit', UserEditComponent)
-  .component('userPermissionsEdit', UserPermissionsEditComponent)
-  .component('userPermissionsAdd', UserPermissionsAddComponent)
-  .component('userPermissions', UserPermissionsComponent)
-  .component('userRolesEdit', UserRolesEditComponent)
-  .component('userRolesAdd', UserRolesAddComponent)
-  .component('userRoles', UserRolesComponent)
-  .component('userLists', UserListsComponent)
-  .component('dashboard', DashboardComponent)
-  .component('navSidebar', NavSidebarComponent)
-  .component('navHeader', NavHeaderComponent)
-  .component('loginLoader', LoginLoaderComponent)
-  .component('resetPassword', ResetPasswordComponent)
-  .component('forgotPassword', ForgotPasswordComponent)
-  .component('loginForm', LoginFormComponent)
-  .component('registerForm', RegisterFormComponent)
-
-  .component('imgList', ImgListComponent)
-  .component('videoList', VideoListComponent)
-  .component('imgChange', ImgChangeComponent)
+    .component('tablesSimple', TablesSimpleComponent)
+    .component('uiModal', UiModalComponent)
+    .component('uiTimeline', UiTimelineComponent)
+    .component('uiButtons', UiButtonsComponent)
+    .component('uiIcons', UiIconsComponent)
+    .component('uiGeneral', UiGeneralComponent)
+    .component('formsGeneral', FormsGeneralComponent)
+    .component('chartsChartjs', ChartsChartjsComponent)
+    .component('widgets', WidgetsComponent)
+    .component('userProfile', UserProfileComponent)
+    .component('userVerification', UserVerificationComponent)
+    .component('comingSoon', ComingSoonComponent)
+    .component('userEdit', UserEditComponent)
+    .component('userPermissionsEdit', UserPermissionsEditComponent)
+    .component('userPermissionsAdd', UserPermissionsAddComponent)
+    .component('userPermissions', UserPermissionsComponent)
+    .component('userRolesEdit', UserRolesEditComponent)
+    .component('userRolesAdd', UserRolesAddComponent)
+    .component('userRoles', UserRolesComponent)
+    .component('userLists', UserListsComponent)
+    .component('dashboard', DashboardComponent)
+    .component('navSidebar', NavSidebarComponent)
+    .component('navHeader', NavHeaderComponent)
+    .component('loginLoader', LoginLoaderComponent)
+    .component('resetPassword', ResetPasswordComponent)
+    .component('forgotPassword', ForgotPasswordComponent)
+    .component('loginForm', LoginFormComponent)
+    .component('registerForm', RegisterFormComponent)
+    /**
+     *  index
+     */
+    .component('imgList', ImgListComponent)
+    .component('videoList', VideoListComponent)
+    .component('imgChange', ImgChangeComponent)
+    /**
+     *  page
+     */
+    .component('navHeaderpage', NavHeaderpageComponent)
+    .component('pagesAfjj', PagesAfjjComponent)
+    .component('pagesFzlc', PagesFzlcComponent)
+    .component('pagesQywh', PagesQywhComponent)
+    .component('pagesLdgh', PagesLdghComponent)
+    .component('pagesAflssyb', PagesAflssybComponent)
+    .component('pagesGdbj', PagesGdbjComponent)
