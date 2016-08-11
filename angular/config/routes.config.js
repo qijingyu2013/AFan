@@ -173,6 +173,28 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('page.aboutdown', {
+      url: '/down',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-down></pages-down>'
+        }
+      }
+    })
+    .state('page.aboutjstd', {
+      url: '/jstd',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-jstd></pages-jstd>'
+        }
+      }
+    })
     .state('app.tablessimple', {
       url: '/tables-simple',
       data: {
