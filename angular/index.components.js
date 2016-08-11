@@ -44,6 +44,9 @@ import { PagesLdghComponent } from './app/components/pages-ldgh/pages-ldgh.compo
 import { PagesAflssybComponent } from './app/components/pages-aflssyb/pages-aflssyb.component'
 import { PagesGdbjComponent } from './app/components/pages-gdbj/pages-gdbj.component'
 import { PagesQyspComponent } from './app/components/pages-qysp/pages-qysp.component'
+import { PagesSspzComponent } from './app/components/pages-sspz/pages-sspz.component'
+import { PagesAfspxxComponent } from './app/components/pages-afspxx/pages-afspxx.component'
+import { PagesHzjgComponent } from './app/components/pages-hzjg/pages-hzjg.component'
 
 angular.module('app.components')
     .component('tablesSimple', TablesSimpleComponent)
@@ -92,3 +95,6 @@ angular.module('app.components')
     .component('pagesAflssyb', PagesAflssybComponent)
     .component('pagesGdbj', PagesGdbjComponent)
     .component('pagesQysp', PagesQyspComponent)
+    .component('pagesSspz', PagesSspzComponent)
+    .component('pagesAfspxx', PagesAfspxxComponent)
+    .component('pagesHzjg', PagesHzjgComponent)

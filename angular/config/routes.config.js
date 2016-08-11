@@ -140,6 +140,39 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('page.aboutsspz', {
+      url: '/sspz',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-sspz></pages-sspz>'
+        }
+      }
+    })
+    .state('page.aboutafspxx', {
+      url: '/afspxx',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-afspxx></pages-afspxx>'
+        }
+      }
+    })
+    .state('page.abouthzjg', {
+      url: '/hzjg',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-hzjg></pages-hzjg>'
+        }
+      }
+    })
     .state('app.tablessimple', {
       url: '/tables-simple',
       data: {
