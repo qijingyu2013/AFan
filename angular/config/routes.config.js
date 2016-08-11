@@ -195,6 +195,17 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('page.aboutzbs', {
+      url: '/zbs',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-zbs></pages-zbs>'
+        }
+      }
+    })
     .state('app.tablessimple', {
       url: '/tables-simple',
       data: {

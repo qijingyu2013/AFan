@@ -49,6 +49,7 @@ import { PagesAfspxxComponent } from './app/components/pages-afspxx/pages-afspxx
 import { PagesHzjgComponent } from './app/components/pages-hzjg/pages-hzjg.component'
 import { PagesDownComponent } from './app/components/pages-down/pages-down.component'
 import { PagesJstdComponent } from './app/components/pages-jstd/pages-jstd.component'
+import { PagesZbsComponent } from './app/components/pages-zbs/pages-zbs.component'
 
 angular.module('app.components')
     .component('tablesSimple', TablesSimpleComponent)
@@ -102,3 +103,5 @@ angular.module('app.components')
     .component('pagesHzjg', PagesHzjgComponent)
     .component('pagesDown', PagesDownComponent)
     .component('pagesJstd', PagesJstdComponent)
+    .component('pagesZbs', PagesZbsComponent)
+
