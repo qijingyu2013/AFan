@@ -206,6 +206,50 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('page.aboutafys', {
+      url: '/afys',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-afys></pages-afys>'
+        }
+      }
+    })
+    .state('page.aboutafjl', {
+      url: '/afjl',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-afjl></pages-afjl>'
+        }
+      }
+    })
+    .state('page.aboutjmlc', {
+      url: '/jmlc',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-jmlc></pages-jmlc>'
+        }
+      }
+    })
+    .state('page.aboutzh', {
+      url: '/zh',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-zh></pages-zh>'
+        }
+      }
+    })
     .state('app.tablessimple', {
       url: '/tables-simple',
       data: {
