@@ -140,6 +140,17 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('page.aboutasszfsp', {
+      url: '/asszfsp',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-asszfsp></pages-asszfsp>'
+        }
+      }
+    })
     .state('page.aboutsspz', {
       url: '/sspz',
       data: {
@@ -250,6 +261,7 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+
     .state('app.tablessimple', {
       url: '/tables-simple',
       data: {

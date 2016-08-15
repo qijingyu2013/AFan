@@ -19,6 +19,13 @@ angular.module('app.components', [
   'ui.bootstrap', 'chart.js', 'mm.acl', 'datatables',
   'datatables.bootstrap', 'checklist-model'
 
+    ,"ngSanitize"
+  ,
+  "com.2fdevs.videogular",
+  "com.2fdevs.videogular.plugins.controls",
+  "com.2fdevs.videogular.plugins.overlayplay",
+  "com.2fdevs.videogular.plugins.poster"
+
   //,"ngSanitize"//,
   //"com.2fdevs.videogular",
   //"com.2fdevs.videogular.plugins.controls",
