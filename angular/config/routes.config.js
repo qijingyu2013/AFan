@@ -261,6 +261,39 @@ export function RoutesConfig ($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state('page.aboutsyjj', {
+      url: '/syjj',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-syjj></pages-syjj>'
+        }
+      }
+    })
+    .state('page.aboutsyjys', {
+      url: '/syjys',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-syjys></pages-syjys>'
+        }
+      }
+    })
+    .state('page.aboutsyqywh', {
+      url: '/syqywh',
+      data: {
+        auth: false
+      },
+      views: {
+        'main@page': {
+          template: '<pages-syqywh></pages-syqywh>'
+        }
+      }
+    })
 
     .state('app.tablessimple', {
       url: '/tables-simple',

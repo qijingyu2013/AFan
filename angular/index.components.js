@@ -55,6 +55,8 @@ import { PagesAfjlComponent } from './app/components/pages-afjl/pages-afjl.compo
 import { PagesJmlcComponent } from './app/components/pages-jmlc/pages-jmlc.component'
 import { PagesZhComponent } from './app/components/pages-zh/pages-zh.component'
 import { PagesAsszfspComponent } from './app/components/pages-asszfsp/pages-asszfsp.component'
+import { PagesSyjjComponent } from './app/components/pages-syjj/pages-syjj.component'
+import { PagesSyjysComponent } from './app/components/pages-syjys/pages-Syjys.component'
 
 angular.module('app.components')
     .component('tablesSimple', TablesSimpleComponent)
@@ -114,7 +116,8 @@ angular.module('app.components')
     .component('pagesJmlc', PagesJmlcComponent)
     .component('pagesZh', PagesZhComponent)
     .component('pagesAsszfsp', PagesAsszfspComponent)
-
+    .component('pagesSyjj', PagesSyjjComponent)
+    .component('pagesSyjys', PagesSyjysComponent)
 
 
 
